@@ -1,1 +1,16 @@
 highlighter: pygments
+markdown: redcarpet
+
+title:            'A Blog'
+tagline:          'Place for my thoughts'
+# description:      ''
+url:              http://cyph0n.github.io
+baseurl:          /
+
+author:
+  name:           'Assil Ksiksi'
+  url:            https://twitter.com/Cyph0n
+
+paginate:         5
+
+version:          0.0.1
