@@ -9,8 +9,10 @@ baseurl:          /
 
 author:
   name:           'Assil Ksiksi'
-  url:            https://twitter.com/Cyph0n
+  twitter:        https://twitter.com/Cyph0n
+  github:         https://github.com/Cyph0n
+  cv:
 
 paginate:         5
 
-version:          0.0.1
+version:          0.1.0

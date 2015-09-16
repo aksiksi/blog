@@ -26,8 +26,9 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.author.url }}">Twitter</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" href="{{ site.author.github }}">Github</a>
+      <a class="sidebar-nav-item" href="{{ site.author.twitter }}">Twitter</a>
+      <span class="sidebar-nav-item">Blog version: v{{ site.version }}</span>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

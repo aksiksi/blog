@@ -1,30 +1,77 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
+## Who am I?
+
+My name is Assil Ksiksi.
+
+I'm an Electrical Engineering senior at UAE University. Besides most things electrical (except power transmission), I'm in love with computer architecture, programming, compilers, and web app development.
+
+## What have I done?
+
+I've built projects in Python, JavaScript, Node.js, Scala, Java, C++, and MATLAB. I'm familiar with quite a few other langauges, and I'm confident I can pickup any new language, not counting the esoteric like APL and friends, in a short amount of time.
+
+You may have noticed that the projects I've worked on during my free time are not at all related to my major. The way I see it is that I spend more than enough time working on EE subjects, so I'd rather spend my free time learning something else. Thankfully my hobby provides an alternate career path in case EE doesn't work out for some reason.
+
+## Projects
+
+### Planning Phase
+
+#### Online Marketplace for Tunisia
+
+A website that makes it easier for buyers and sellers to find each other in my home country Tunisia. Major hurdles include providing shipping for buyers countrywide at a reasonable cost, and handling payments online.
+
+* Backend
+    - Scala
+    - Play Framework
+    - Slick ORM?
+* Frontend
+    - Bootstrap
+    - React
+    - Underscore
+
+#### BTC Tunisia
+
+An online Bitcoin wallet/exchange for use in Tunisia. Due to strict currency controls, it is impossible to send Tunisian Dinar out of the country. As a result, Tunisians cannot buy things online, or send money to friends and relatives abroad. I plan on releasing a MVP with some advertising to see if the idea has potential.
+
+* Backend
+    - Scala or Python
+    - Play Framework or Django
+    - Slick (?) or Django ORM
+    - A solid Bitcoin blockchain in Java or Python
+* Frontend
+    - Bootstrap
+    - Backbone or React
+    - Underscore
+
+### Completed/Cancelled
+
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+    All of the source code for the projects listed below can be found on my <a href="https://github.com/Cyph0n">Github</a>.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+#### [Jadawil](http://jadawil.herokuapp.com)
 
-There are currently two themes built on Poole:
+A course scheduler for UAE University students. Jadawil makes it extremely easy to schedule course timings during a busy semester. It also takes final exam conflicts into account.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+#### dubizzle
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+A scraping-based API for Dubizzle, a classified ads website based in the UAE. This project actually got me a job offer at Dubizzle!
 
-## Setup
+#### cspice
 
-Some fun facts about the setup of this project include:
+A simple circuit simulator written in C++. I had ambitious plans for the functionality initially:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+* Transient analysis and DC operating point
+* SPICE-like syntax parser
+* Support for R, L, C, as well as diodes and transistors
+* Plotting via gnuplot
+* REPL for interactive simulation; insert or delete components in real-time without editing the circuit's netlist
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+I ended up implementing only a small subset of the above. It was done as a course project.
 
-Thanks for reading!
+#### stracker
+
+A task tracker written during my internship at Schlumberger. The idea was for it to improve workshop efficiency by displaying current maintenance tasks for each technician on a large LCD display. I wrote it using Node.js and NW.js.
