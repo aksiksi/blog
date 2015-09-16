@@ -4,13 +4,13 @@ markdown: redcarpet
 title:            'A Blog'
 tagline:          'Place for my thoughts'
 # description:      ''
-url:              http://cyph0n.github.io
+url:              http://aksiksi.github.io
 baseurl:          /
 
 author:
   name:           'Assil Ksiksi'
   twitter:        https://twitter.com/Cyph0n
-  github:         https://github.com/Cyph0n
+  github:         https://github.com/aksiksi
   cv:
 
 paginate:         5
