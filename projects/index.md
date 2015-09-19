@@ -35,7 +35,7 @@ An online Bitcoin wallet/exchange for use in Tunisia. Due to strict currency con
 ## Completed/Cancelled
 
 <p class="message">
-    All of the source code for the projects listed below can be found on my <a href="https://github.com/Cyph0n">Github</a>.
+    All of the source code for the projects listed below can be found on my Github page.
 </p>
 
 ### [Jadawil](http://jadawil.herokuapp.com)
