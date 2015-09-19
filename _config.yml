@@ -1,10 +1,10 @@
 highlighter: pygments
 markdown: redcarpet
 
-title:            'A Blog'
+title:            'Assil Ksiksi'
 tagline:          'Place for my thoughts'
 # description:      ''
-url:              http://aksiksi.github.io
+url:              http://assil.me
 baseurl:          /
 
 author:
@@ -15,4 +15,4 @@ author:
 
 paginate:         5
 
-version:          0.1.0
+version:          0.2
