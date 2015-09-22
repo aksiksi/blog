@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: About
 ---
 
 I'm an Electrical Engineering senior at UAE University. Besides most things electrical (except power transmission), I'm in love with computer architecture, programming, compilers, and web app development.
