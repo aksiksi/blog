@@ -5,3 +5,57 @@
 .intro p {
   color: #ffffff;
 }
+
+.about {
+  font-size: 0.85rem;
+}
+
+.social {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+}
+
+.links > li {
+  list-style: none;
+  display: inline-block;
+  width: 35px;
+  padding: 0;
+  line-height: 0;
+}
+
+.links img {
+  margin: 0;
+  width: 35px;
+}
+
+.version {
+  display: block;
+  font-size: 0.8;
+}
+
+/* For wider viewport */
+@media (min-width: 48em) {
+  .social {
+    position: absolute;
+    bottom: 5rem;
+  }
+
+  .links li {
+    width: 50px;
+  }
+
+  .links img {
+    margin: 0;
+    width: 50px;
+  }
+
+  .version {
+    position: absolute;
+    bottom: 1rem;
+  }
+}

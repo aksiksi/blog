@@ -1,18 +1,15 @@
 highlighter: pygments
 markdown: redcarpet
 
-title:            'Assil Ksiksi'
-tagline:          'Place for my thoughts'
-# description:      ''
+title:            Assil Ksiksi
+aboutme:          My name is Assil Ksiksi. I'm an Electrical Engineering student by day, and a programmer by night.
 url:              http://assil.me/
 baseurl:          /
 
 author:
-  name:           'Assil Ksiksi'
+  name:           Assil Ksiksi
   twitter:        https://twitter.com/Cyph0n
   github:         https://github.com/aksiksi
   cv:
 
 paginate:         5
-
-version:          0.2
