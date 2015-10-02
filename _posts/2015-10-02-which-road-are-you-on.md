@@ -70,6 +70,8 @@ But the API is not without its disadvantages. Nominatim API is free, but only fo
 
 Better (expensive!) usage tiers are provided by other companies, such as Mapbox, but the reliability of our system clearly decreases if we rely on any external service, as it introduces an additional point of failure outside of our control. This also limits future scalability since the cost of maintaining the system will increase drastically with the number of users.
 
+The code that uses this approach can be found [here](https://github.com/aksiksi/gp2-server-node/blob/master/server.js).
+
 ## A proper solution
 
 I went back to the drawing board, and started searching for techniques in GIS (Geographic Information Systems) that allow us to check whether or not a point is on a road. It turns out that this is a trivial thing to do, from a GIS point of view.
@@ -116,6 +118,6 @@ segments.findOne(q, {speed: 1, road_id: 1, _id: 0}, (err, segment) => {
 });
 ```
 
-With this approach, the response time of the server is decreased by a factor of 10 on average - from 800 ms to around 70 ms. The disadvantage of course is that roads have to be selected, buffered, exported, and added to the database by hand. This process can be automated by parsing the exported OSM data file manually and using a GIS processing library that can do the buffering for us, such as [Turf.js](https://www.mapbox.com/guides/intro-to-turf/) from Mapbox.
+With this approach, the response time of the server is decreased by a factor of 10 on average - from 800 ms to around 70 ms. The disadvantage of course is that roads have to be selected, buffered, exported, and added to the database by hand. This process can be automated by parsing the exported OSM data file manually and using a GIS processing library that can do the buffering for us, such as [Turf.js](https://www.mapbox.com/guides/intro-to-turf/) from Mapbox. For our senior project, I see no need to go through the extra effort, since we only need to test the system with 2 or 3 roads.
 
-For our senior project, I see no need to go through the extra effort, since we only need to test the system with 2 or 3 roads.
+The server code implementing this solution is available on [this](https://github.com/aksiksi/gp2-server-node) repo, under the `new-udp` branch.
