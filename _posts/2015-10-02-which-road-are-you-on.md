@@ -80,15 +80,15 @@ OSM already provides road data in *LineString* format i.e. a sequence of coordin
 
 Here is a sample road segment (highlighted in yellow).
 
-![Road segment selected on OSM map]({{ site.url }}post-1/1.png)
+![Road segment selected on OSM map]({{ site.url }}images/post-1/1.png)
 
 And here is the result of applying a *Buffer* to it with a radius of 4 meters.
 
 ![Result of applying buffer with 4m radius]({{ site.url }}images/post-1/2.png)
 
-Great, so now we have a *Polygon* that represents this road segment. The question now is, how can we use this with MongoDB? One of the standard shape (or *feature*) representation formats in the GIS world is GeoJSON. Luckily for us, MongoDB can perform geospatial queries on shapes in this format, and QGIS can export shapes to GeoJSON,
+Great, so now we have a *Polygon* that represents this road segment. The question now is, how can we use this with MongoDB? One of the standard shape (or *feature*) representation formats used in GIS is called GeoJSON. Luckily for us, MongoDB can perform geospatial queries on shapes in this format, and QGIS has built-in support for exporting shapes to GeoJSON.
 
-To accomodate for this change, I removed the *coordinates* collection, and added a *segments* collection containing each segment of a road with a different speed limit. Each segment document has a `shape` field that contains the *Polygon* exported from QGIS in GeoJSON format.
+To accommodate for this change, I added a *segments* collection containing each segment of a road with a different speed limit. Each segment document has a `shape` field that contains the *Polygon* exported from QGIS in GeoJSON format.
 
 To find which road segment, if any, a given coordinate lies on, we can use a simple query in Node.js:
 
