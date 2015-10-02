@@ -11,4 +11,4 @@ You may have noticed that the projects I've worked on during my free time are no
 
 I plan on applying to a PhD in EE this semester. My current list is MIT, Berkeley, Purdue, UMelb, and ANU. I'm not entirely sure I see myself in academia in the future, but I think a PhD is a good career goal for people who are not satisfied with the status quo and are interested in furthering science in general.
 
-If you'd like to contact me, you can do that via [Twitter](https://twitter.com/Cyph0n).
+If you'd like to contact me, you can do that via [Twitter](https://twitter.com/aksiksi).
