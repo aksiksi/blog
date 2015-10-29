@@ -3,6 +3,36 @@ layout: page
 title: Projects
 ---
 
+## Completed
+
+<p class="message">
+    All of the source code for the projects listed below can be found on my Github page.
+</p>
+
+### [Jadawil](http://jadawil.herokuapp.com)
+
+A course scheduler for UAE University students. Jadawil makes it extremely easy to schedule course timings during a busy semester. It also takes final exam conflicts into account.
+
+### STracker
+
+A task tracker written during my internship at Schlumberger. The idea was for it to improve workshop efficiency by displaying current maintenance tasks for each technician on a large LCD display. I wrote it using Node.js and NW.js.
+
+### dubizzle
+
+A scraping-based API for Dubizzle, a classified ads website based in the UAE. This project actually got me a job offer at Dubizzle!
+
+### cspice
+
+A simple circuit simulator written in C++. I had ambitious plans for the functionality initially:
+
+* Transient analysis and DC operating point
+* SPICE-like syntax parser
+* Support for R, L, C, as well as diodes and transistors
+* Plotting via gnuplot
+* REPL for interactive simulation; insert or delete components in real-time without editing the circuit's netlist
+
+I ended up implementing only a small subset of the above as a course project.
+
 ## Planning Phase
 
 ### Online Marketplace for Tunisia
@@ -31,33 +61,3 @@ An online Bitcoin wallet/exchange for use in Tunisia. Due to strict currency con
     - Bootstrap
     - Backbone or React
     - Underscore
-
-## Completed/Cancelled
-
-<p class="message">
-    All of the source code for the projects listed below can be found on my Github page.
-</p>
-
-### [Jadawil](http://jadawil.herokuapp.com)
-
-A course scheduler for UAE University students. Jadawil makes it extremely easy to schedule course timings during a busy semester. It also takes final exam conflicts into account.
-
-### dubizzle
-
-A scraping-based API for Dubizzle, a classified ads website based in the UAE. This project actually got me a job offer at Dubizzle!
-
-### cspice
-
-A simple circuit simulator written in C++. I had ambitious plans for the functionality initially:
-
-* Transient analysis and DC operating point
-* SPICE-like syntax parser
-* Support for R, L, C, as well as diodes and transistors
-* Plotting via gnuplot
-* REPL for interactive simulation; insert or delete components in real-time without editing the circuit's netlist
-
-I ended up implementing only a small subset of the above. It was done as a course project.
-
-### STracker
-
-A task tracker written during my internship at Schlumberger. The idea was for it to improve workshop efficiency by displaying current maintenance tasks for each technician on a large LCD display. I wrote it using Node.js and NW.js.
