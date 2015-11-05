@@ -6,7 +6,7 @@ author: {{ site.author.name }}
 
 ## Background
 
-My team at UAEU is designing a system that delivers changes in road speed limit to drivers in near-realtime as a senior project in Electrical Engineering. The system consists of a the driver's Android smartphone and a remote server. The backend has two components: 1) a Node.js server used to process requests, and 2) a MongoDB database containing the geographic data and speed limit for each road.
+My team at UAEU is designing a system that delivers changes in road speed limit to drivers in near-realtime as a senior project in Electrical Engineering. The system consists of the driver's Android smartphone and a remote server. The backend has two components: 1) a Node.js server used to process requests, and 2) a MongoDB database containing the geographic data and speed limit for each road.
 
 All communication between client and server is done over UDP to minimize data usage for the user. Each exchange (request + response) consumes around 150 bytes of mobile data on average. The format used is JSON, due mainly to widespread library support, and the fact that it doesn't add too much overhead.
 
