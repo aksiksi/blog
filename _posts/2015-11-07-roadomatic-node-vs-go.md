@@ -184,7 +184,7 @@ func udpHandler(...) {
 
 ### Result: a tie
 
-The line count was similar, and I think both languages are clear even for someone who's not too familiar with them.
+The line count was similar, and I think both versions are clear even for someone who's not too familiar with either Node or Go.
 
 ## Round 2: Querying the Database
 
@@ -358,7 +358,7 @@ The memory usage of the Go implementation is simply astounding, allowing the bac
 
 ## Conclusion
 
-In summary, both Node and Go are excellent languages, especially for writing server-based applications. However, for our specific use-case, Go is simply superior in almost every way.
+In summary, both Node and Go are excellent choices for writing server-based applications. However, for our specific use-case, Go is simply superior in almost every way.
 
 We are currently still using the Node implementation for testing, but we will likely shift to the Go version if we end up deploying [Roadomatic](https://github.com/aksiksi/roadomatic) in production.
 
