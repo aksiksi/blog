@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I'm an Electrical Engineering senior at UAE University. Besides most things electrical (except power transmission), I'm in love with computer architecture, programming, compilers, and web app development.
+I'm an Electrical Engineering senior at [UAE University](https://www.uaeu.ac.ae/en/). Besides most things electrical (except power transmission), I'm in love with computer architecture, programming, compilers, and web app development.
 
 I've built projects in Python, JavaScript, Node.js, Scala, Java, C++, and MATLAB. Check out the [Projects]({{ site.author.url }}/projects/) page for more details. I'm familiar with quite a few other languages, and I'm confident I can pickup any new language, not counting the esoteric like APL and friends, in a short amount of time.
 

@@ -38,6 +38,14 @@
   font-size: 0.8rem;
 }
 
+.contents {
+  font-size: 1.2rem;
+}
+
+div.highlight > pre {
+  font-size: 0.7rem;
+}
+
 /* For wider viewport */
 @media (min-width: 48em) {
   .social {
