@@ -317,7 +317,7 @@ I'm no Go expert, but I believe such examples demonstrate how Go's approach to e
 
 Of course, if you think the Node version could have been written in a more elegant manner, please don't hesitate to leave a comment below. Or better yet, send us a PR on [Github](https://github.com/aksiksi/roadomatic)!
 
-## Round 3: Performance and Portability
+## Round 3: Performance
 
 Here is a table outlining the results of testing. Please keep in mind that response time includes RTT from client (located [here](https://www.google.ae/maps/place/United+Arab+Emirates/@24.2947031,49.4553835,6z/)) to server (located [here](https://www.google.com/maps/place/Netherlands/@52.1917355,3.0369517,7z/)).
 
@@ -326,7 +326,7 @@ Here is a table outlining the results of testing. Please keep in mind that respo
     <th></th>
     <th>Memory Usage</th>
     <th>Response Time</th>
-    <th>Portable</th>
+    <th>Compiled</th>
     <th>Size</th>
     <th>Dependencies</th>
   </tr>
