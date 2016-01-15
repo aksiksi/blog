@@ -6,18 +6,18 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %}" href="/">Home</a>
-      <a class="sidebar-nav-item{% if page.url == '/about/index.html' %} active{% endif %}" href="/about/">About</a>
-      <a class="sidebar-nav-item{% if page.url == '/projects/index.html' %} active{% endif %}" href="/projects/">Projects</a>
-      <a class="sidebar-nav-item{% if page.url == '/research/index.html' %} active{% endif %}" href="/research/">Research</a>
-      <a class="sidebar-nav-item{% if page.url == '/contact/index.html' %} active{% endif %}" href="/contact/">Contact Me</a>
+      <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %}" style="display: inline-block;" href="/">Home</a><br />
+      <a class="sidebar-nav-item{% if page.url == '/about/index.html' %} active{% endif %}" style="display: inline-block;" href="/about/">About</a><br />
+      <a class="sidebar-nav-item{% if page.url == '/projects/index.html' %} active{% endif %}" style="display: inline-block;" href="/projects/">Projects</a><br />
+      <a class="sidebar-nav-item{% if page.url == '/research/index.html' %} active{% endif %}" style="display: inline-block;" href="/research/">Research</a><br />
+      <a class="sidebar-nav-item{% if page.url == '/contact/index.html' %} active{% endif %}" style="display: inline-block;" href="/contact/">Contact Me</a><br />
     </nav>
   </div>
 
   <div class="container social">
     <ul class="links">
-      <li><a href="{{ site.author.github }}" target="_blank"><img src="/images/gh.png" alt="Github" /></a></li>
-      <li><a href="{{ site.author.twitter }}" target="_blank"><img src="/images/tw.png" alt="Twitter" /></a></li>
+      <li><a href="{{ site.author.github }}" target="_blank"><img src="{{ site.url }}images/gh.png" alt="Github" /></a></li>
+      <li><a href="{{ site.author.twitter }}" target="_blank"><img src="{{ site.url }}images/tw.png" /></a></li>
     </ul>
   </div>
 
