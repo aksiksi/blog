@@ -9,13 +9,13 @@ title: Projects
     All of the source code for the projects listed below can be found on my Github page.
 </p>
 
-### 16-bit CMOS Adder in GF 65 nm
+### 16-bit Adder in GF 65 nm CMOS
 
-During the Spring 2016 semester, my colleague and I designed and implemented a 16-bit adder based on the carry lookahead Kogge-Stone topology. We were able to bring the propagation delay down to around **250 ps**. We did not however extensively test the functionality of the circuit due to time constraints.
+During the Spring 2016 semester, my colleague and I designed and implemented a 16-bit adder based on the carry lookahead Kogge-Stone topology for a course midterm project. We were able to bring the propagation delay down to around **250 ps**. We did not however extensively test the functionality of the circuit due to time constraints.
 
 ### [Jadawil](http://jadawil.herokuapp.com)
 
-A course scheduler for UAE University students. Jadawil makes it extremely easy to schedule course timings during a busy semester. It also takes final exam conflicts into account.
+A course scheduler for UAE University students. Jadawil makes it extremely easy to schedule course timings during a busy semester. It also takes final exam conflicts into account. I built a basic version over the course of 2 weeks using Python, Flask, mechanize, and BeautifulSoup. The most difficult part of the project was scraping and parsing the course data - this is what I used mechanize and BS for.
 
 ### STracker
 
