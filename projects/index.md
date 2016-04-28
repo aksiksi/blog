@@ -9,6 +9,10 @@ title: Projects
     All of the source code for the projects listed below can be found on my Github page.
 </p>
 
+### 16-bit CMOS Adder in GF 65 nm
+
+During the Spring 2016 semester, my colleague and I designed and implemented a 16-bit adder based on the carry lookahead Kogge-Stone topology. We were able to bring the propagation delay down to around **250 ps**. We did not however extensively test the functionality of the circuit due to time constraints.
+
 ### [Jadawil](http://jadawil.herokuapp.com)
 
 A course scheduler for UAE University students. Jadawil makes it extremely easy to schedule course timings during a busy semester. It also takes final exam conflicts into account.
@@ -34,19 +38,6 @@ A simple circuit simulator written in C++. I had ambitious plans for the functio
 I ended up implementing only a small subset of the above as a course project.
 
 ## Planning Phase
-
-### Online Marketplace for Tunisia
-
-A website that makes it easier for buyers and sellers to find each other in my home country Tunisia. Major hurdles include providing shipping for buyers countrywide at a reasonable cost, and handling payments online.
-
-* Backend
-    - Scala
-    - Play Framework
-    - Slick ORM?
-* Frontend
-    - Bootstrap
-    - React
-    - Underscore
 
 ### BTC Tunisia
 
