@@ -1,5 +1,5 @@
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
 
 title:            Assil Ksiksi
 aboutme:          My name is Assil Ksiksi. I'm an Electrical Engineering student by day, and a programmer by night.
