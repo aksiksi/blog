@@ -8,24 +8,6 @@ author: {{ site.author.name }}
 <b>Reader beware:</b> this is a code-heavy post.
 </div>
 
-## Contents
-
-<div class="contents">
-  <ul>
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#server-operation">Server Operation</a></li>
-    <li><a href="#round-1-request-processing">Round 1: Request Processing</a>
-      <ul style="margin: 0;">
-        <li><a href="#udp-socket">UDP Socket</li>
-        <li><a href="#request-validation">Request Validation</a></li>
-      </ul>
-    </li>
-    <li><a href="#round-2-querying-the-database">Round 2: Querying the Database</a></li>
-    <li><a href="#round-3-performance">Round 3: Performance</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
-  </ul>
-</div>
-
 ## Overview
 
 As I've outlined in my [previous]({% post_url 2015-10-02-which-road-are-you-on %}) post, we are building a system called [Roadomatic](https://github.com/aksiksi/roadomatic) for our senior project in Electrical Engineering at UAE University. The goal of the system is to enable delivery of location-based road and traffic information to drivers in real-time.
