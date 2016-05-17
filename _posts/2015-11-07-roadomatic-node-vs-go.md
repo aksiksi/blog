@@ -22,8 +22,8 @@ In this post, I'll be talking mainly about the backend, and specifically compari
 
 The backend consists of two main parts:
 
-* A UDP server
-* A MongoDB database for data storage
+* A UDP server for request/response handling
+* A MongoDB database for storage of geospatial data
 
 The general flow of the server operation is as follows:
 
@@ -299,9 +299,11 @@ I'm no Go expert, but I believe such examples demonstrate how Go's approach to e
 
 Of course, if you think the Node version could have been written in a more elegant manner, please don't hesitate to leave a comment below. Or better yet, send us a PR on [Github](https://github.com/aksiksi/roadomatic)!
 
+**Update**: [JakeChampion](https://github.com/JakeChampion) submitted an awesome [PR](https://github.com/aksiksi/roadomatic/pull/2) that helped us migrate the function above from callbacks to Promises! It's cleaner now, but I still like the Go version more :P
+
 ## Round 3: Performance
 
-Here is a table outlining the results of testing. Please keep in mind that response time includes RTT from client (located [here](https://www.google.ae/maps/place/United+Arab+Emirates/@24.2947031,49.4553835,6z/)) to server (located [here](https://www.google.com/maps/place/Netherlands/@52.1917355,3.0369517,7z/)).
+Here is a table outlining the results of testing. Please keep in mind that response time includes RTT from client (located in the [UAE](https://www.google.ae/maps/place/United+Arab+Emirates/@24.2947031,49.4553835,6z/)) to server (located in the [Netherlands](https://www.google.com/maps/place/Netherlands/@52.1917355,3.0369517,7z/)).
 
 <table>
   <tr>
@@ -316,18 +318,18 @@ Here is a table outlining the results of testing. Please keep in mind that respo
     <tr>
       <td><b>Node</b></td>
       <td>25 MB</td>
-      <td>150 ms</td>
+      <td>~150 ms</td>
       <td>No</td>
       <td>N/A</td>
       <td><a href="https://www.npmjs.com/package/mongodb">mongodb</a></td>
     </tr>
     <tr>
       <td><b>Go</b></td>
-      <td>1.5 MB</td>
+      <td>~2 MB</td>
       <td>150 ms</td>
       <td>Yes</td>
       <td>6 MB</td>
-      <td>None</td>
+      <td><a href="http://labix.org/mgo">mgo</a> (linked)</td>
     </tr>
   </tbody>
 </table>
@@ -345,9 +347,3 @@ In summary, both Node and Go are excellent choices for writing server-based appl
 We are currently still using the Node implementation for testing, but we will likely shift to the Go version if we end up deploying [Roadomatic](https://github.com/aksiksi/roadomatic) in production.
 
 In any case, porting the system from Node to Go was an excellent experience for me personally. I've always wanted to learn Go, and this was the best kind of excuse to just do it.
-
-<script>
-  (function() {
-    anchors.add('h2, h3, h4');
-  })();  
-</script>
