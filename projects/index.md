@@ -19,7 +19,7 @@ During the Spring 2016 semester, my colleague and I designed and implemented a 1
     All of the source code for the projects listed below can be found on my Github page.
 </p>
 
-### [Jadawil](http://jadawil.herokuapp.com)
+### [Jadawil](http://jadawil.xyz)
 
 A course scheduler for UAE University students. Jadawil makes it extremely easy to schedule course timings during a busy semester. It also takes final exam conflicts into account. I built a basic version over the course of 2 weeks using Python, Flask, mechanize, and BeautifulSoup. The most difficult part of the project was scraping and parsing the course data - this is what I used mechanize and BS for.
 
