@@ -3,15 +3,21 @@ layout: page
 title: Projects
 ---
 
+## Circuit Design
+
+### 500Mbps All-Digital True Hardware RNG in 65nm CMOS
+
+For my final project in MIC610 for the Spring 2016 semester, I designed a true hardware RNG capable of generating random bits at around 500 Mbps. I came up with a unique technique to extract entropy from differential oscillator jitter. The design is not polished and the randomness of the output is yet to be confirmed. I hope to finalize the design and publish a paper on the idea.
+
+### 250ps 16-bit Adder in GF 65 nm CMOS
+
+During the Spring 2016 semester, my colleague and I designed and implemented a 16-bit adder based on the carry lookahead Kogge-Stone topology for a course midterm project. We were able to bring the propagation delay down to around **250 ps**. We did not however extensively test the functionality of the circuit due to time constraints.
+
 ## Completed
 
 <p class="message">
     All of the source code for the projects listed below can be found on my Github page.
 </p>
-
-### 16-bit Adder in GF 65 nm CMOS
-
-During the Spring 2016 semester, my colleague and I designed and implemented a 16-bit adder based on the carry lookahead Kogge-Stone topology for a course midterm project. We were able to bring the propagation delay down to around **250 ps**. We did not however extensively test the functionality of the circuit due to time constraints.
 
 ### [Jadawil](http://jadawil.herokuapp.com)
 
