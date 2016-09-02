@@ -3,8 +3,8 @@ markdown: kramdown
 
 title:            Assil Ksiksi
 aboutme:          My name is Assil Ksiksi. I'm an Electrical Engineering student by day, and a programmer by night.
-url:              http://assil.me/
-baseurl:          /
+url:              https://prism.gatech.edu/aksiksi3
+baseurl:          /aksiksi3/
 
 author:
   name:           Assil Ksiksi
