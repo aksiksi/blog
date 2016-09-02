@@ -5,7 +5,7 @@ title: About
 
 I'm a graduate of [UAE University's](https://www.uaeu.ac.ae/en/) Electrical Engineering program. Besides most things electrical (except power transmission), I'm in love with computer architecture, programming, compilers, and web app development.
 
-I'm currently pursuing a MSc in Microsystems at Masdar Institute of Science and Technology.
+I'm currently pursuing a PhD in Electrical Engineering at [Georgia Tech](https://www.ece.gatech.edu/).
 
 I've built projects in Python, JavaScript, Node.js, Scala, Java, C++, and MATLAB. Check out the [Projects]({{ site.author.url }}/projects/) page for more details. I'm familiar with quite a few other languages, and I'm confident I can pickup any new language, not counting the esoteric ones (I'm looking at you, APL/J/K), in a short amount of time.
 
