@@ -7,7 +7,7 @@ title: Home
   {% for post in paginator.posts %}
   <div class="post">
     <h3 class="post-title">
-      <a href="{{ post.url }}">
+      <a href="{{ site.baseurl2 }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h3>
