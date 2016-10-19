@@ -7,7 +7,7 @@ title: Projects
 
 ### 500Mbps All-Digital True Hardware RNG in 65nm CMOS
 
-For my final project in MIC610 for the Spring 2016 semester, I designed a true hardware RNG capable of generating random bits at around 500 Mbps. I came up with a unique technique to extract entropy from differential oscillator jitter. The design is not polished and the randomness of the output is yet to be confirmed. I hope to finalize the design and publish a paper on the idea.
+For my final project in MIC610 for the Spring 2016 semester, I designed a true hardware RNG capable of generating random bits at around 500 Mbps. The circuit extracts entropy from differential oscillator jitter, and adds some additional non-deterministic bias through the use of a charge sharing circuit. The design is not polished and the randomness of the output has yet to be confirmed, but I hope to finalize the design and publish a paper on the idea in the near future.
 
 ### 250ps 16-bit Adder in GF 65 nm CMOS
 
