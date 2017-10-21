@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AES-GCM Example in Go"
+title: "AES-GCM in Go"
 author: {{ site.author.name }}
 ---
 
