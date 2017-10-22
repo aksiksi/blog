@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cross Compile OpenSSL for Xilinx Zynq ARM"
+title: "Cross Compile OpenSSL for the Zynq ARM"
 author: {{ site.author.name }}
 ---
 
