@@ -16,6 +16,8 @@ The Go standard library provides an implementation of AES-GCM, specifically unde
 
 Place the code into a file `aesgcm.go` and compile using: `go build aesgcm.go`. Note that we do not use the additional data field of AES-GCM in this example.
 
+The full source is also available as a [gist](https://git.io/vdNAf).
+
 ```go
 package main
 
