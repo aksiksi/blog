@@ -35,17 +35,17 @@ Let's begin by grabbing the latest PetaLinux installer from the [Xilinx PetaLinu
 Once the download is complete, navigate to the directory and run the following to install the PetaLinux toolchain to `~/petalinux`.
 
 ```bash
-mkdir ~/petalinux
 chmod +x petalinux-v2017.3-final-installer.run
-./petalinux-v2017.3-final-installer.run ~/tools/petalinux
+mkdir ~/petalinux
+./petalinux-v2017.3-final-installer.run ~/petalinux
 ```
 
-You will be prompted to accept some licenses; just type `q` followed by `y` at each prompt.
+At one point during the installation, you will be prompted to accept some licenses; just type `q` followed by `y` at each prompt.
 
 Finally, let's create an alias for sourcing the PetaLinux settings script, as you will need to do this whenever you open a new shell. You can place this line in your `~/.bash_profile`, or even just have it execute by just placing the source statement and destination directly.
 
 ```bash
-alias peta='source ~/tools/petalinux/petalinux-v2017.3-final/setttings.sh`
+alias peta='source ~/petalinux/petalinux-v2017.3-final/setttings.sh`
 ```
 
 If you would like to disable WebTalk (usage reporting), run: `petalinux-util --webtalk off`.
