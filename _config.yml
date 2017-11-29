@@ -1,9 +1,12 @@
+plugins:
+  - jekyll-paginate
+
 highlighter: rouge
 markdown: kramdown
 
 title:            Assil Ksiksi
-aboutme:          My name is Assil Ksiksi. I'm an Electrical Engineering student by day, and a programmer by night.
-url:              http://assil.me/
+aboutme:          My name is Assil Ksiksi. I'm an Electrical Engineering student by day, and a programmer $
+url:              https://assil.me/
 
 author:
   name:           Assil Ksiksi
