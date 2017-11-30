@@ -11,4 +11,4 @@ I've built projects in Python, JavaScript, Node.js, Scala, Java, C++, and MATLAB
 
 You may have noticed that the projects I've worked on during my free time are not at all related to my major. The way I see it is that I spend more than enough time working on EE in my studies, so I'd rather spend my free time learning something else. Thankfully my hobby provides an alternate career path in case EE doesn't work out for some reason.
 
-You can find a link to my CV [here]({{ site.baseurl }}cv.pdf).  
+You can find a link to my resume [here]({{ site.url }}resume.pdf).
