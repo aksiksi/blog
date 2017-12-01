@@ -14,9 +14,11 @@ The first step was to decide on a suitable web server. I settled on [Caddy](http
 
 The remainder of this post will walk you through how to migrate your Github Pages site to your own server running Caddy. The guide assumes that you already have a domain name with Github Pages and that your server/VPS is running CentOS 7 x64 or similar.
 
-## Installing Caddy
+## Required Software
 
-Before we can do any sort of migrating, we need to first install some software and tools that are required to build and serve a Jekyll-based (GitHub Pages) site.
+Before we can do any sort of migrating, we need to first install some software and tools that are required to build and serve a Jekyll-based site (e.g., GitHub Pages).
+
+### Caddy
 
 First, let's download and install Caddy with the `service` plugin. I will explain why we need this plugin in a bit.
 
@@ -26,7 +28,7 @@ curl https://getcaddy.com | bash -s personal hook.service
 
 Verify that it was installed correctly by running `caddy --version`.
 
-## Installing Jekyll
+### Jekyll
 
 Next, we'll download and build the latest version of Ruby (2.4.2 as I am writing this guide). Jekyll depends on Ruby, but the version of Ruby bundled with CentOS is typically quite old (for stability reasons). 
 
@@ -50,7 +52,9 @@ sudo gem install jekyll
 
 With that, we have the tools required to host our GitHub Pages website.
 
-## Grab and build your Jekyll site
+## Migration
+
+### Grab and build the Jekyll site
 
 First, let's create a directory for our websites `/var/www`. We need to change ownership to the current user; replace "user" with your own username on the server.
 
@@ -73,7 +77,7 @@ Finally, we can build the site using Jekyll:
 jekyll build
 ```
 
-## Remove your domain from GitHub
+### Remove domain from GitHub
 
 Go to your repo, then `Settings`, then remove the "Custom Domain" and click "Save". Next, delete the `CNAME` file from your GitHub repo. 
 
@@ -81,7 +85,7 @@ Next, head over to your domain DNS management panel and remove the two `A` recor
 
 At this point, your domain will point to your server instead of GitHub.
 
-## Create a Caddyfile
+### Create a Caddyfile
 
 Now we need to configure Caddy to serve our Jekyll website. A `Caddyfile` contains the configuration for the Caddy server; this includes stuff like which domain points to which folder as well as more advanced features.
 
@@ -105,7 +109,7 @@ You can test your server by running `caddy` in the current directory. Visit your
 
 One more step remains: we need to create a `systemd` service so that Caddy will run in the background even when we are logged out of the server.
 
-## Systemd service for Caddy
+### Setup the Caddy `systemd` service
 
 Execute the following commands. Note that the `-service` option is provided by the `hook.service` plugin we downloaded with Caddy.
 
@@ -115,4 +119,4 @@ sudo caddy -service install -conf /var/www/Caddyfile \
 sudo caddy -service start
 ``` 
 
-And that's it! If you have any questions about the guide, drop a comment down below and I will be glad to help!
+And that's it! If you have any questions or suggestions, please drop a comment down below and I will be glad to reply!
