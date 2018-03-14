@@ -2,7 +2,7 @@ highlighter: rouge
 markdown: kramdown
 
 title:            Assil Ksiksi
-aboutme:          My name is Assil Ksiksi. I'm an Electrical Engineering student by day, and a programmer by night.
+aboutme:          My name is Assil Ksiksi. I'm a graduate student by day, and a software dev by night.
 url:              http://aksiksi.github.io/
 
 author:
@@ -10,4 +10,4 @@ author:
   twitter:        https://twitter.com/aksiksi
   github:         https://github.com/aksiksi
 
-paginate:         5
+paginate:         10
