@@ -10,7 +10,7 @@ email = 'moc.liamg@iskisklissa'
 print(email[::-1]) # Reverse the string
 ```
 
-Give up already?
+Given up already?
 
-* Email: assil<lastname>@gmail.com
+* Email: [firstname][lastname]@gmail.com
 * Twitter: <a href="https://twitter.com/aksiksi">@aksiksi</a>

@@ -3,12 +3,11 @@ layout: page
 title: About
 ---
 
-I'm a graduate of [UAE University's](https://www.uaeu.ac.ae/en/) Electrical Engineering program. Besides most things electrical (except power transmission), I'm in love with computer architecture, programming, compilers, and web app development.
+I'm a graduate of [UAE University's](https://www.uaeu.ac.ae/en/) Electrical Engineering program. Besides most things electrical (except power transmission), I'm in love with computer architecture, low-level software, and web app development.
 
-I'm currently pursuing a PhD in Electrical Engineering at [Georgia Tech](https://www.ece.gatech.edu/).
+In Spring 2018, I graduated with a MSc in ECE from Georgia Tech.
+
+Right now, I am working as a software engineer at Cisco Systems.
 
 I've built projects in Python, JavaScript, Node.js, Scala, Java, C++, and MATLAB. Check out the [Projects]({{ site.url }}/projects/) page for more details. I'm familiar with quite a few other languages, and I'm confident I can pickup any new language, not counting the esoteric ones (I'm looking at you, APL/J/K), in a short amount of time.
 
-You may have noticed that the projects I've worked on during my free time are not at all related to my major. The way I see it is that I spend more than enough time working on EE in my studies, so I'd rather spend my free time learning something else. Thankfully my hobby provides an alternate career path in case EE doesn't work out for some reason.
-
-You can find a link to my CV [here]({{ site.baseurl }}cv.pdf).  
