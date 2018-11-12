@@ -79,7 +79,7 @@ tags:
 * To search forward: `/`
     * Type in the pattern, then hit Enter
 * To search back: `?`
-* To search for current word at cursor: `*` (forward) or `##` (backward)
+* To search for current word at cursor: `*` (forward) or `#` (backward)
 * After searching, go back to original position: `Ctrl-o`
 * Find and replace: `:%s/<find>/<replace>/g`
 	* `%` (in all lines), `s` (start), `g` (end)
