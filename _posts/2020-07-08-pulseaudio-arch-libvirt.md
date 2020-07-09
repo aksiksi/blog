@@ -9,7 +9,7 @@ tags:
     - pulseaudio
 ---
 
-# Check the QEMU log
+## Check the QEMU log
 
 If you're having audio issues with pulseaudio with QEMU on Arch, start by checking the QEMU log:
 
@@ -29,7 +29,7 @@ audio: warning: Using timer based audio emulation
 
 In this case, QEMU is complaining that it cannot connect to the pulseaudio server.
 
-# Ensure that pulseaudio is running for your user
+## Ensure that pulseaudio is running for your user
 
 I do this in two steps. First, make sure that the server is running for your user. Here, I want passthrough for the `work` user:
 
@@ -60,7 +60,7 @@ Connection failure: Connection refused
 pa_context_connect() failed: Connection refused
 ```
 
-# Verify QEMU user and group
+## Verify QEMU user and group
 
 You need to make sure that you've set a QEMU `user` and `group` that matches the user you want pulseaudio passthrough to work with.
 
@@ -78,7 +78,7 @@ $ groups
 sys network scanner power libvirt docker video optical lp kvm input audio wheel work dev
 ```
 
-# Verify pulseaudio socket user
+## Verify pulseaudio socket user
 
 Next, head over to your libvirt config file and verify the user ID used for the pulseaudio socket:
 
@@ -95,9 +95,9 @@ $ sudo EDITOR=vim virsh edit win10
 
 Note: this should match the socket path from `pactl info` above.
 
-# Restart pulseaudio server
+## Restart pulseaudio server
 
-At this point, everything should be good. If you still are hitting the error above in your QEMU logs, it's time to restart QEMU:
+At this point, everything should be good. If you still are hitting the error above in your QEMU logs, it's time to restart pulseaudio:
 
 ```
 $ pulseaudio --check
