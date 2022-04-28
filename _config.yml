@@ -1,13 +1,13 @@
 highlighter: rouge
 markdown: kramdown
 
-title:            Assil Ksiksi
-aboutme:          My name is Assil Ksiksi. I write low-level software at Cisco.
-url:              http://aksiksi.github.io/
+title:            Blog
+aboutme:          My name is Assil and I'm a software enthusiast.
+url:              https://assil.me
 
 author:
   name:           Assil Ksiksi
   twitter:        https://twitter.com/aksiksi
   github:         https://github.com/aksiksi
 
-paginate:         10
+paginate:         5
